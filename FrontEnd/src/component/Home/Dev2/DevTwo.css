@@ -1,0 +1,77 @@
+.mainDevTwo{
+    background: url('../../../assets/imges/texture.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 20px;
+}
+
+.mainDevTwo .Fleet{
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+.mainDevTwo .Fleet, .p1{
+    text-align: center;
+}
+
+.DevTwoCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.callNow{
+    background-color: #192A30;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.callNow:hover{
+    background-color: coral;
+    color: black;
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+    width: 100%;
+}
+
+.about-us .left{
+    margin-left: 45px;
+}
+
+.about-us .right{
+    margin: 0px 20px;
+}
+
+.about-us .right .box1, .box2{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0px;
+    width: 70%;
+}
+@media only screen and (max-width: 800px) {
+    .about-us{
+        flex-wrap: wrap;
+    }
+    .about-us .left{
+        margin-left: 0px;
+    }
+    .about-us .left img{
+        width: 100%;
+    }
+    .about-us .right .box1, .box2{
+        width: 100%;
+    }
+    
+}

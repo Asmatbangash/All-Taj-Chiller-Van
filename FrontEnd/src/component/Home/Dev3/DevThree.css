@@ -1,0 +1,16 @@
+.mainDevThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDevThree .h2, .p2{
+    text-align: center;
+}
+
+.carsCardDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

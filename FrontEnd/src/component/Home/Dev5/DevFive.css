@@ -1,0 +1,52 @@
+.mainDevFive{
+    background: url('../../../assets/imges/texture.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.eatProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact{
+ margin: 5rem 0px;
+}
+form{
+    text-align: center;
+    width: 100%;
+}
+.formData div{
+       width: 100%;
+}
+.formData div input{
+    margin: 10px;
+    width: 20%;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formData div textarea{
+    width: 41.3%;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.formData button{
+    width: 41.3%;
+    cursor: pointer;
+}
+
+
+@media  screen and (max-width: 800px) {
+    .formData div input{
+        width: 70%;
+    }
+    .formData div textarea{
+        width: 70%;
+    }
+    .formData button{
+        width: 70%;
+    }
+}
